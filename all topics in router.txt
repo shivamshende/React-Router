@@ -1,0 +1,49 @@
+Installation and Setup:-
+Installing React Router using npm or yarn.
+Setting up BrowserRouter or HashRouter in your application.
+
+Route Component:-
+Using the <Route> component to define routes in your application.
+Specifying route paths and corresponding components.
+
+Link and NavLink Components:-
+Using <Link> and <NavLink> components to create navigation links.
+The difference between Link and NavLink.
+
+Route Parameters:-
+Passing and accessing parameters in route paths.
+Using the useParams hook to retrieve parameters.
+
+Nested Routes:-
+Nesting routes within other routes.
+Rendering components based on nested route paths.
+
+Route Matching:-
+Exact matching of routes to avoid rendering multiple components.
+Using the exact prop with the <Route> component.
+
+Switch Component:-
+The <Switch> component to render the first matched route.
+Handling 404 pages with a wildcard route.
+
+Redirect Component:-
+Using the <Redirect> component to redirect users to another route.
+
+Programmatic Navigation:-
+Navigating to different routes programmatically using the history object or the useHistory hook.
+
+Route Guards:-
+Implementing route guards to control access to certain routes.
+Using the Route component's render prop for conditional rendering.
+
+Query Parameters:-
+Handling query parameters in route paths.
+Using the useLocation hook to access query parameters.
+
+BrowserRouter vs. HashRouter:-
+Understanding the differences between BrowserRouter and HashRouter.
+Choosing the appropriate router type for your application.
+
+Navigation Lifecycle:-
+Understanding the lifecycle events of navigation.
+Using useEffect for handling navigation-related side effects.
