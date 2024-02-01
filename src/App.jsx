@@ -17,7 +17,7 @@ function App() {
       <Navbar />
 
       <Routes>
-        <Route path='/' element={<Home />} />
+        <Route path='/' element={<Home />}/>
         <Route path='products' element={<Products />}>
           <Route path='featured' element={<FeaturedProducts />} />
           <Route path='new' element={<NewProducts />} />
@@ -27,8 +27,6 @@ function App() {
         </Route>
         <Route path='about' element={<About />} />
         {/* <Route path='github' element={<Github />} /> */}
-
-        <Route index element={<Home />} />
 
         <Route path='*' element={<NoMatch />} />
       </Routes>
