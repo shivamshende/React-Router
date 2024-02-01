@@ -27,6 +27,8 @@ function App() {
         <Route path='about' element={<About />} />
         {/* <Route path='github' element={<Github />} /> */}
 
+        <Route index element={<Home />} />
+
         <Route path='*' element={<NoMatch />} />
       </Routes>
     </>
