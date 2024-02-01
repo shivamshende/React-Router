@@ -13,7 +13,7 @@ function Navbar() {
             <NavLink className= 'px-5' style={navLinkStyles} to='products'>Products</NavLink>
             <NavLink className= 'px-5' style={navLinkStyles} to='users'>Users</NavLink>
             <NavLink className= 'px-5' style={navLinkStyles} to='about'>About</NavLink>
-            {/* <NavLink className= 'px-5' style={navLinkStyles} to='github'>Github</NavLink> */}
+            <NavLink className= 'px-5' style={navLinkStyles} to='github'>Github</NavLink>
         </nav>
     )
 }
