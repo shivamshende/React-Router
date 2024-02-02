@@ -10,7 +10,7 @@ Currently, two official plugins are available:
 <details open>
   <summary>Table of Contents</summary>
 
-  1. [Project Title](#1-Vite React GitHub Profile Viewer and Router)
+  1. [About the project](#1-about-the-project)
   2. [Acknowledgements](#2-acknowledgements)
   3. [API Reference](#3-api-reference)
      - [3.1 Get all items](#31-get-all-items)
@@ -50,7 +50,7 @@ Currently, two official plugins are available:
   33. [Used By](#33-used-by)
 </details>
 
-# Vite React GitHub Profile Viewer and Router
+# About the Project
 
 This project is a demonstration of various React Router features and API handling using the GitHub API. The following topics have been covered:
 
