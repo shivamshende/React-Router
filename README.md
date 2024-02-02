@@ -10,7 +10,7 @@ Currently, two official plugins are available:
 <details open>
   <summary>Table of Contents</summary>
 
-  1. [Project Title](#1-project-title)
+  1. [Project Title](# Vite React GitHub Profile Viewer and Router)
   2. [Acknowledgements](#2-acknowledgements)
   3. [API Reference](#3-api-reference)
      - [3.1 Get all items](#31-get-all-items)
@@ -49,3 +49,35 @@ Currently, two official plugins are available:
   32. [Usage/Examples](#32-usageexamples)
   33. [Used By](#33-used-by)
 </details>
+
+# Vite React GitHub Profile Viewer and Router
+
+This project is a demonstration of various React Router features and API handling using the GitHub API. The following topics have been covered:
+
+- Configuring routes
+- Nested routes
+- Dynamic routes
+- No-match routes
+- Index routes
+- Routes parameters (using `useParams` hook)
+- Relative links
+- Outlet component
+- Navigating programmatically (using `useNavigate` hook)
+- Active link styling
+- Searching any random GitHub profile (using `useLoaderData` hook)
+
+## Getting Started
+
+### Prerequisites
+
+Before you begin, ensure you have the following installed:
+
+- [Node.js](https://nodejs.org/)
+- [npm](https://www.npmjs.com/)
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone <repository-url>
