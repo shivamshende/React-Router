@@ -199,8 +199,8 @@ This project is maintained by [Shivam Shende].
 
 For inquiries, suggestions, or collaboration opportunities, feel free to reach out to the author:
 
-- **Your Name:**
-  - GitHub: [Shivam Shende](https://github.com/shivamshende)
+- **Your Name:** Shivam Shende
+  - GitHub: https://github.com/shivamshende
   - Email: shivamshende200@gmail.com
 
 ## License
