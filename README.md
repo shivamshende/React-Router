@@ -10,7 +10,7 @@ Currently, two official plugins are available:
 <details open>
   <summary>Table of Contents</summary>
 
-  1. [Project Title](#-Vite React GitHub Profile Viewer and Router)
+  1. [Project Title](#1-Vite React GitHub Profile Viewer and Router)
   2. [Acknowledgements](#2-acknowledgements)
   3. [API Reference](#3-api-reference)
      - [3.1 Get all items](#31-get-all-items)
