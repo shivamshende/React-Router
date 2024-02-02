@@ -1,19 +1,11 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
 <details open>
   <summary>Table of Contents</summary>
 
-  1. [About the Project](#about-the-project)
+1. [About the Project](#about-the-project)
    - [Description](#description)
 
 2. [Getting Started](#getting-started)
+   - [React + Vite Setup](#react--vite-setup)
    - [Prerequisites](#prerequisites)
    - [Installation](#installation)
 
@@ -67,7 +59,17 @@ Explore the following key topics covered in this project:
 
 - **Searching any random GitHub profile (using `useLoaderData` hook):** Dive into implementing a feature that allows users to search and view random GitHub profiles using the `useLoaderData` hook.
 
-## Getting Started
+# Getting Started
+
+## React + Vite Setup
+
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules. Two official plugins are available for handling Fast Refresh:
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md): This plugin uses [Babel](https://babeljs.io/) for Fast Refresh.
+
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc): This alternative uses [SWC](https://swc.rs/) for Fast Refresh.
+
+Feel free to choose the plugin that best fits your preferences or project requirements.
 
 ### Prerequisites
 
