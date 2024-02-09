@@ -5,22 +5,25 @@ import React, { useState } from 'react';
 function GithubSearch({ onSearch }) {
     const [username, setUsername] = useState('');
 
-    const handleSearch = () => {
-        if (username.trim() !== '') {
+    const handleSearch = (e) => {
+        if (e.key === 'Enter' && username.trim() !== '') {
             onSearch(username);
         }
     };
 
+
     return (
-        <div className="mb-4">
+        <div className="mt-4 mb-4 flex justify-center">
             <input
                 type="text"
                 placeholder="Enter GitHub username"
                 value={username}
                 onChange={(e) => setUsername(e.target.value)}
-                className="border p-2 mr-2"
+                onKeyPress={handleSearch} 
+                className="border p-1 mr-2 rounded-md text-center"
+                style={{ borderColor: 'rgba(59, 130, 246, 1)' }}
             />
-            <button onClick={handleSearch} className="bg-blue-500 text-white p-2">
+            <button onClick={handleSearch} className="text-black bg-blue-300 hover:bg-blue-600 px-2 hover:text-white py-1 rounded">
                 Search
             </button>
         </div>
