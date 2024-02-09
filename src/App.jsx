@@ -9,7 +9,7 @@ import NewProducts from './components/NewProducts'
 import Users from './components/Users'
 import UserDetails from './components/UserDetails'
 import NoMatch from './components/NoMatch'
-// import Github from './components/Github'
+import Github from './components/Github'
 
 function App() {
   return (
@@ -27,7 +27,7 @@ function App() {
           <Route path=':userId' element={<UserDetails />} />
         </Route>
         <Route path='about' element={<About />} />
-        {/* <Route path='github' element={<Github />} /> */}
+        <Route path='github' element={<Github />} />
 
         <Route path='*' element={<NoMatch />} />
       </Routes>

@@ -3,6 +3,7 @@
 
 1. [About the Project](#about-the-project)
    - [Description](#description)
+   - [View Project](#view-project)
 
 2. [Getting Started](#getting-started)
    - [React + Vite Setup](#react--vite-setup)
@@ -58,6 +59,10 @@ Explore the following key topics covered in this project:
 - **Active Link Styling:** Explore techniques for styling active links to improve user experience and visual feedback.
 
 - **Searching any random GitHub profile (using `useLoaderData` hook):** Dive into implementing a feature that allows users to search and view random GitHub profiles using the `useLoaderData` hook.
+
+## View Project
+
+[Click here to view the project](https://shivamshende.github.io/React-Router/)
 
 # Getting Started
 
