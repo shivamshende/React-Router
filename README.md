@@ -16,15 +16,12 @@
 
 5. [Help / Troubleshooting](#help--troubleshooting)
    - [Common Issues and Solutions](#common-issues-and-solutions)
-   - [Getting Further Assistance](#getting-further-assistance)
-   - [Additional Tips](#additional-tips)
 
 6. [Author / Contributors](#author--contributors)
    - [Contact](#contact)
 
 7. [License](#license)
    - [About the License](#about-the-license)
-   - [How to Contribute](#how-to-contribute)
 </details>
 
 # About the Project
@@ -174,31 +171,16 @@ If you encounter any issues while setting up or running the project, consider th
      npm run dev -- --port <desired-port>
      ```
 
-### Getting Further Assistance
-
-If you encounter issues that are not covered here or need additional help, consider the following steps:
-
-1. **Search Existing Issues:**
-   - Check the project's [GitHub issues](https://github.com/your-username/your-repository/issues) to see if someone else has experienced a similar problem.
-
-2. **Create a New Issue:**
-   - If your issue is not addressed, feel free to [create a new issue](https://github.com/your-username/your-repository/issues/new) with detailed information about the problem, including error messages and steps to reproduce.
-
-3. **Community Support:**
+4. **Community Support:**
    - Reach out to the community on platforms such as [Stack Overflow](https://stackoverflow.com/) for additional support.
 
 Remember, providing detailed information about the problem you are facing will greatly assist in finding a solution.
 
-### Additional Tips
-
-- **Clearing the npm Cache:**
-  If you encounter persistent issues, consider clearing the npm cache with:
-  ```bash
-  npm cache clean -f
-
 ## Author / Contributors
 
 This project is maintained by [Shivam Shende].
+
+Contributions are welcome! Feel free to make changes. You can create a pull request with your changes.
 
 ### Contact
 
@@ -215,9 +197,5 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ### About the License
 
 The MIT License is a permissive open-source license that allows you to freely use, modify, and distribute this software, subject to the conditions stated in the [LICENSE](LICENSE) file.
-
-### How to Contribute
-
-If you're interested in contributing to the project, please check the [Contributing Guidelines](CONTRIBUTING.md) for details on how to get involved.
 
 Thank you for adhering to the terms of the license!
