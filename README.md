@@ -3,7 +3,7 @@
 
 1. [About the Project](#about-the-project)
    - [Description](#description)
-   - [View Project](#view-project)
+   - [Project Access](#view-access)
 
 2. [Getting Started](#getting-started)
    - [React + Vite Setup](#react--vite-setup)
@@ -60,7 +60,7 @@ Explore the following key topics covered in this project:
 
 - **Searching any random GitHub profile (using `useLoaderData` hook):** Dive into implementing a feature that allows users to search and view random GitHub profiles using the `useLoaderData` hook.
 
-## View Project
+## Project Access
 
 [Click here to view the project](https://shivamshende.github.io/React-Router/)
 
