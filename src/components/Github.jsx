@@ -1,16 +1,19 @@
 import React, { useState } from 'react';
 
-//In react, components recieve props as an onject. The 'onSearch' property we are extracting from the prop object.
+//In react, components recieve props as an object. The 'onSearch' property we are extracting from the prop object.
 //'onSearch' prop was passed from the parent component(Github) to the GithubSearch component.
 function GithubSearch({ onSearch }) {
     const [username, setUsername] = useState('');
 
     const handleSearch = (e) => {
-        if (e.key === 'Enter' && username.trim() !== '') {
+        if (e.key === 'Enter') {
             onSearch(username);
         }
     };
 
+    const handleClick = () => {
+        onSearch(username);
+    }
 
     return (
         <div className="mt-4 mb-4 flex justify-center">
@@ -23,7 +26,7 @@ function GithubSearch({ onSearch }) {
                 className="border p-1 mr-2 rounded-md text-center"
                 style={{ borderColor: 'rgba(59, 130, 246, 1)' }}
             />
-            <button onClick={handleSearch} className="text-black bg-blue-300 hover:bg-blue-600 px-2 hover:text-white py-1 rounded">
+            <button onClick={handleClick} className="text-black bg-blue-300 hover:bg-blue-600 px-2 hover:text-white py-1 rounded">
                 Search
             </button>
         </div>
@@ -35,10 +38,16 @@ function Github() {
     const [data, setData] = useState({});
 
     const fetchData = (username) => {
+        console.log('Fetching data for username:', username);
         fetch(`https://api.github.com/users/${username}`)
-            .then((response) => response.json())
+            .then((response) => {
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                return response.json();
+            })
             .then((userData) => {
-                console.log(userData);
+                console.log('Received data:', userData);
                 setData(userData);
             })
             .catch((error) => {
@@ -50,10 +59,10 @@ function Github() {
     const handleSearch = (username) => {
         fetchData(username);
     };
+    
 
     return (
         <div>
-
             {/* passing 'handleSearch' as the 'onSearch' prop to the 'GithubSearch' component */}
             <GithubSearch onSearch={handleSearch} />
 
