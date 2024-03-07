@@ -3,7 +3,7 @@
 
 1. [About the Project](#about-the-project)
    - [Description](#description)
-   - [Project Access](#view-access)
+   - [Project Access](#project-access)
 
 2. [Getting Started](#getting-started)
    - [React + Vite Setup](#react--vite-setup)
@@ -137,6 +137,8 @@ This project showcases the use of various technologies and skills, including:
 
 - **Vite:** Employing Vite as the build tool for fast and efficient development and bundling.
 
+- **User Interaction:** Implemented features for users to add passwords to favorites and view password history, showcasing skills in designing user-friendly interactions.
+
 - **Tailwind CSS:** Styling the application using the utility-first CSS framework Tailwind CSS for a responsive and modern design.
 
 - **npm:** Managing project dependencies and scripts using the Node Package Manager.
@@ -186,7 +188,7 @@ Contributions are welcome! Feel free to make changes. You can create a pull requ
 
 For inquiries, suggestions, or collaboration opportunities, feel free to reach out to the author:
 
-- **Your Name:** Shivam Shende
+- **Name:** Shivam Shende
   - GitHub: https://github.com/shivamshende
   - Email: shivamshende200@gmail.com
 
