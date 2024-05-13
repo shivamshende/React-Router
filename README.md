@@ -89,15 +89,18 @@ Before you begin, ensure you have the following installed:
 
 2. Navigate to the project directory:
 
-cd <project-directory>
+   ```bash
+   cd <project-directory>
 
 3. Install dependencies:
 
-npm install
+   ```bash
+   npm install
 
 4. Running the App:
 
-npm run dev
+   ```bash
+   npm run dev
 
 ## Folder Structure
 
