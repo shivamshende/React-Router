@@ -33,7 +33,8 @@ This project serves as an interactive demonstration of advanced React Router fun
 **React GitHub Profile Viewer and Router**
 
 This project aims to provide a comprehensive understanding of React Router and API integration through practical examples and real-world scenarios. Whether you are a beginner or an experienced developer, this repository serves as an educational resource for honing your React skills and building dynamic, navigable web applications.
-Explore the following key topics covered in this project:
+
+Explore the following key features covered in this project:
 
 - **Configuring Routes:** Learn how to set up and manage routes for seamless navigation within your application.
 
